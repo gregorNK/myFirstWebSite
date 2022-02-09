@@ -19,8 +19,13 @@ a{
 }
 nav{
   display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  transform: rotateY(-50%);
 }
 .divH{
+  position: relative;
     background-color: #333;
     margin-top: -8px;
     margin-left: -10px;
