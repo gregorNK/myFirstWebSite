@@ -62,30 +62,6 @@
       display: flex;
       align-items: center;
     }
-    .header__nav{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      /* position: absolute; */
-      left: auto;
-      top: auto;
-      background-color:var(--color-white);
-      /* max-height: auto; */
-      /* width: 100vw; */
-      /* transition: all 500ms ease-in-out; */
-      overflow:visible;
-      align-items: flex-start;     
-      flex-wrap: nowrap;
-    }
-    .header__nav .nav__item{
-      display: flex;
-      margin-bottom: 0;
-  
-    }
-    .nav_list{
-      display: flex;
-      align-items: center;
-    }
     
   }
 /* 
