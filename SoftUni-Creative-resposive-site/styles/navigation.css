@@ -1,0 +1,123 @@
+.header{
+    background-color: var(--color-white);
+    padding: 0.5rem 1rem;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    box-shadow: var(--shadow-large);
+    display: flex;
+    align-items: center;
+  }
+  .header .btn:last-of-type{
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+
+  .header .mobile-menu{
+    padding: 0;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 0;
+    order: 2;
+  }
+  .header .mobile-menu:hover{
+    color: var(--color-primary);
+    background:unset;
+  }
+
+  .header__nav{
+    position: absolute;
+    left: 0;
+    top: 58px;
+    background-color:var(--color-white);
+    max-height: 0px;
+    width: 100vw;
+    transition: all 500ms ease-in-out;
+    overflow: hidden;
+    justify-content: flex-end
+  }
+  .header__nav.open,
+  .header .mobile-menu:hover + .header__nav{
+    max-height: 400px;
+    padding: 0.5rem 1rem;
+    box-shadow: var(--shadow-large);
+  }
+  .header__nav .nav__item{
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .header__nav .nav__item .nav__itemlink{
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 400;
+  }
+  .header__nav .nav__item .nav__itemlink:hover{
+    font-weight: bold;
+  }
+  @media screen and (min-width: 1310px){
+    .header{
+      display: flex;
+      align-items: center;
+    }
+    .header__nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* position: absolute; */
+      left: auto;
+      top: auto;
+      background-color:var(--color-white);
+      /* max-height: auto; */
+      /* width: 100vw; */
+      /* transition: all 500ms ease-in-out; */
+      overflow:visible;
+      align-items: flex-start;     
+      flex-wrap: nowrap;
+    }
+    .header__nav .nav__item{
+      display: flex;
+      margin-bottom: 0;
+  
+    }
+    .nav_list{
+      display: flex;
+      align-items: center;
+    }
+    
+  }
+/* 
+  @media all and (min-width: 960px) {
+    .menu {
+        align-items: flex-start;     
+        flex-wrap: nowrap;
+        background: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+        position: relative;
+        display: block; 
+        width: auto;
+    }
+    .button {
+        order: 2;
+    }
+    .submenu-active .submenu {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 68px;
+        background: #111;
+    }
+    .toggle {
+        display: none;
+    }
+    .submenu-active {
+        border-radius: 0;
+    }
+} */
