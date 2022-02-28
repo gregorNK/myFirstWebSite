@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.header .header__list{
+    display: flex;
+    gap :2rem;
+    padding-right: 3rem;
+}
+.header .header__list a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.header .header__list li:nth-child(1){
+    border-bottom: var(--blue) 6px solid ;
+}
+.header .header__list li:hover{
+    border-bottom: var(--blue) 6px solid ; 
+}
+.header .logo{
+    padding-left: 5rem;
+}
+.header .logo p{
+    font-size: 32px;
+    color: #454545;
+}
+.header .logo span{
+    color: var(--blue);
+}
