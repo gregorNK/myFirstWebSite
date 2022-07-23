@@ -1,0 +1,14 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+@import url(./carousel.css);
+@import url(./we-are.css);
+@import url(./events.css);
+
+@media only screen and (max-width: 620px) {
+    .we-are{
+        padding-top:0;
+    }
+    .we-are p{
+    width: 320px;
+  }
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Avenir-light';
+    src: url(/fonts/avenir_ff/FontsFree-Net-Avenir-Light.ttf);
+}
+@font-face {
+    font-family: 'Avenir-black';
+    src: url(/fonts/avenir_ff/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: 'Avenir-book';
+    src: url(/fonts/avenir_ff/AvenirLTStd-Book.otf);
+}
+/* Helvetivca */
+
+@font-face {
+    font-family: 'HelveticaNeue' ;
+    src: url(/fonts/Helvetica/HelveticaNeue.ttf);
+}
+@font-face {
+    font-family: 'HelveticaNeue-Medium' ;
+    src: url(/fonts/Helvetica/HelveticaNeue\ Medium.ttf);
+}
+@font-face {
+    font-family: 'HelveticaNeue-Bold' ;
+    src: url(/fonts/Helvetica/Helvetica\ Neu\ Bold.ttf);  
+}
+@font-face {
+    font-family: 'HelveticaNeue-Light' ;
+    src: url(/fonts/Helvetica/HelveticaNeue\ Light.ttf);
+}
+@font-face {
+    font-family: 'HelveticaNeue-LightItalic' ;
+    src: url(/fonts/Helvetica/HelveticaNeue-LightItalic.otf);
+}

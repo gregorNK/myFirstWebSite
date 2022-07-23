@@ -1,0 +1,25 @@
+.we-are{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 108px;
+    padding-bottom: 56px;
+    background-color: #ffffff;
+}
+.we-are p {
+    text-align: center;
+    font-size: 16px;
+    width: 620px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    padding: 26px;
+    color: #54636d;
+    font-family: HelveticaNeue-Light;
+}
+.h3-title{
+    font-size: 24px;
+    font-family: Avenir-book;
+    color: #313f48;
+    letter-spacing:3px;
+    white-space: 12px;
+}

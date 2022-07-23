@@ -1,0 +1,33 @@
+.img-wrapper {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered p {
+  font-family: Avenir-black;
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.events {
+  background-color: #F5F5F5;
+  padding-top: 102px;
+}
+
+.events-title {
+  padding-left: 640px;
+  padding-bottom: 56px;
+}
